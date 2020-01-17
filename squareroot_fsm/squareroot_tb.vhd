@@ -1,22 +1,3 @@
--- Author: Paolo Camurati
--- File : squareroot_hlsm.vhd
--- Design units:
--- entity squareroot
--- function: square root HSLM - asynchronous reset 
--- input: Clk, Rst, go, start(1 bit), a, b (8 bits)
--- output: ready (1 bit), res (9 bits)
--- architecture HSLM
--- Library/package:ieee.std_logic_ll64: to use std_logic
--- Synthesis and verification (optional):
--- Synthesis software: . . .
---  Options/script: . . .
---  Target technology: . . .
---  Testbench: squareroot_hlsm_tb.vhd
---  Revision history
---  Version 1.0
---  Date: 20170713
---  Comments:
-
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
 
